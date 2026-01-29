@@ -20,12 +20,19 @@ Each person’s face images are stored in a dataset. The model learns from these
 ## ✨ Key Features
 
 ✔ Real-time face detection using camera
+
 ✔ Face recognition using LBPH algorithm
+
 ✔ Individual dataset per person
+
 ✔ Automatic Punch In on first detection
+
 ✔ Manual Punch Out confirmation (press O)
+
 ✔ Prevents duplicate attendance entries
+
 ✔ Attendance stored in CSV file
+
 ✔ Simple, lightweight and runs on CPU
 
 ## 🛠 Technologies Used
@@ -42,19 +49,6 @@ Haar Cascade Classifier (Face Detection)
 
 LBPH Face Recognizer (Face Recognition)
 
-📂 Project Structure
-SVAS_Project/
-│
-├── Face_Attendance.ipynb        # Main notebook
-├── dataset/                     # Face image folders
-│   ├── Rajesh/
-│   ├── Varsith/
-│   └── ...
-│
-├── face_model.xml               # Trained model
-├── label_map.npy                # Label mapping
-├── Student_attendance.csv       # Attendance output
-└── README.md
 
 ## 📸 Step 1 — Dataset Collection
 
